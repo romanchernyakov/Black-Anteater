@@ -3,47 +3,25 @@ body{
 }
 
 
-.back img{
-    position: absolute;
-    top: 150px;
-    left: 50px;
-    width: 200px;
-}
-
-.backHower img{
-    position: absolute;
-    top: 113px;
-    left: 12px;
-    width: 240px;
-    opacity: 0;
-}
-
-.backHower img:hover{
-    position: absolute;
-    top: 113px;
-    left: 12px;
-    width: 240px;
-    opacity: 1;
-}
 
 .home {
     position: absolute;
     top: 10px;
     left: 30px;
-    width: 300px;
+    width: 400px;
 }
 .homeHover {
     position: absolute;
     top: 10px;
     left: 30px;
-    width: 300px;
+    width: 400px;
     opacity: 0;
 }
     .homeButton:hover .homeHover {
         position: absolute;
         top: 10px;
         left: 30px;
-        width: 300px;
+        width: 400px;
         opacity: 1;
     }
 
@@ -77,14 +55,17 @@ body{
 }
 .surf{
     position: absolute;
-    top: 40px;
-    left: 69vw;
+    top: 20px;
+    right: 30vw;
     height: 30vw;
+    z-index: 1;
 }
-.wave {
+.wave img{
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    top: 270px;
+    right: 0vw;
+    width: 29vw;
+    z-index: 2;
 }
 .surfer{
     position: absolute;
@@ -115,10 +96,6 @@ body{
     left: -16vw;
 }
 
-
-
-
-
 .photo img{
     position: absolute;
     top: 250px;
@@ -134,14 +111,15 @@ body{
 
 .punkGrid{
     position: absolute;
-    margin-left: 35vw;
-    top: 300px;
+    margin-left: 28vw;
+    top: 240px;
     width: 100%;
-
     flex-direction: column;
     height: 800px;
+    max-width: 800px;
     justify-content: flex-start;
     flex-wrap: wrap;
+    z-index: 20;
 }
 .punkGrid img {
     width: 400px;
@@ -168,10 +146,9 @@ body{
     align-self: flex-start;
 }
 
-
-
 .paws{
     margin-top: -400px;
+    width: fit-content;
 }
 .paws img{
     margin-left: -30px;
@@ -217,6 +194,7 @@ body{
     opacity: 1;
     font-family: 'Courier New', Courier, monospace;
     color: black;
+    z-index: 1;
     opacity: 0;
 }
     .punk1:hover .rectangle{
