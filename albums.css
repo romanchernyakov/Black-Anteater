@@ -60,41 +60,20 @@ body{
     position: absolute;
     top: 10px;
     left: 30px;
-    width: 300px;
+    width: 400px;
 }
 .homeHover {
     position: absolute;
     top: 10px;
     left: 30px;
-    width: 300px;
+    width: 400px;
     opacity: 0;
 }
     .homeButton:hover .homeHover {
         position: absolute;
         top: 10px;
         left: 30px;
-        width: 300px;
-        opacity: 1;
-    }
-.back img{
-    position: absolute;
-    top: 150px;
-    left: 50px;
-    width: 200px;
-}
-.backHower img{
-    position: absolute;
-    top: 113px;
-    left: 12px;
-    width: 240px;
-    opacity: 0;
-}
-
-    .backHower img:hover{
-        position: absolute;
-        top: 113px;
-        left: 12px;
-        width: 240px;
+        width: 400px;
         opacity: 1;
     }
 /* body */

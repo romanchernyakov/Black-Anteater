@@ -24,41 +24,18 @@ body{
         opacity: 1;
     }
 
-.back img{
-    position: absolute;
-    top: 160px;
-    left: 50px;
-    width: 200px;
-}
-    
-.backHower img{
-    position: absolute;
-    top: 130px;
-    left: 12px;
-    width: 240px;
-    opacity: 0;
-}
-
-    .backHower img:hover{
-        position: absolute;
-        top: 130px;
-        left: 12px;
-        width: 240px;
-        opacity: 1;
-    }
-
 .gif img{
     position: absolute;
     top: 30px;
-    left: 300px;
+    left: 360px;
     width: 270px;
     transform: rotate(2deg);
 }
 .photo img{
     position: absolute;
-    top: 250px;
-    left: 220px;
-    width: 400px;
+    top: 200px;
+    left: 120px;
+    width: 480px;
     transform: rotate(-7deg);
 }
 
