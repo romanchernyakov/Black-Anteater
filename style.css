@@ -1,0 +1,127 @@
+
+
+body{
+    background-color: black;
+}
+.logo img{
+    position: relative;
+    top: 6vw;
+    left: 0px;
+    width: 58vw;
+    }
+.mouth{
+    position: absolute;
+    top: 15vw;
+    left: 27vw;
+    width: 5vw;
+    padding-bottom: 33vw;
+    padding-left: 14vw;
+    opacity: 0;
+}
+    .mouth:hover{
+        position: absolute;
+        top: 15vw;
+        left: 27vw;
+        width: 5vw;
+        padding-bottom: 33vw;
+        padding-left: 14vw;
+        opacity: 1;
+    }
+.title img{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 30vw;
+}
+.about{
+    position: absolute;
+    right: 0px;
+    top: 0vw;
+    margin-right: 10%;
+    margin-top: 2%;
+    width: 30vw;
+    z-index: 15;
+}
+.about p{
+    position: absolute;
+    top: 8vw;
+    left: 1vw;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    max-width: 26vw;
+    font-family: 'Courier', Courier, monospace;
+    transform: rotate(-0.6deg);
+}
+.about img{
+    position: absolute;
+    top: 6vw;
+    left: -14vw;
+    color: white;
+    width: 45vw;
+    height: 300px;
+    font-family: 'Courier', Courier, monospace;
+}
+menu {
+    position: absolute;
+    top: 42vh;
+    right: 47px;
+    width:45%;
+    height: 50%;
+}
+
+.people img{
+    position: absolute;
+    z-index: 10;
+    width: 400px;
+    left: 8%;
+    top: 60px;
+    opacity: 100%;
+}
+.peopleHower img{
+    position: absolute;
+    z-index: 10;
+    width: 400px;
+    left: 8%;
+    top: 60px;
+    opacity: 0%;
+}
+    .peopleHower img:hover {
+        position: absolute;
+        z-index: 10;
+        width: 400px;
+        left: 8%;
+        top: 60px;
+        opacity: 100%;
+    }
+
+.albums img{
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    width: 300px;
+    transform: rotate(-7deg);
+    opacity: 100%;
+}
+.albumsHower img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 480px;
+    transform: rotate(-7deg);
+    opacity: 0%;
+}
+    .albumsHower img:hover {
+        position: absolute;
+        z-index: 10;
+        width: 480px;
+        right: 0px;
+        bottom: 0px;
+        opacity: 100%;
+        transform: rotate(-7deg);
+    }
+.bg img{
+    position: absolute;
+    transform: rotate(90deg);
+    height: 180vw;
+    margin-top: -1070px;
+}

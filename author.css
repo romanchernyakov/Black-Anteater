@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+}
+
+
+.home {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+}
+.homeHover {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+    opacity: 0;
+}
+    .homeButton:hover .homeHover {
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        width: 300px;
+        opacity: 1;
+    }
+
+.back img{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    width: 200px;
+}
+    
+.backHower img{
+    position: absolute;
+    top: 130px;
+    left: 12px;
+    width: 240px;
+    opacity: 0;
+}
+
+    .backHower img:hover{
+        position: absolute;
+        top: 130px;
+        left: 12px;
+        width: 240px;
+        opacity: 1;
+    }
+
+.gif img{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    width: 270px;
+    transform: rotate(2deg);
+}
+.photo img{
+    position: absolute;
+    top: 250px;
+    left: 220px;
+    width: 400px;
+    transform: rotate(-7deg);
+}
+
+.anteater img{
+    position: absolute;
+    top: 60px;
+    left: 870px;
+    width: 670px;
+}
+
+.description{
+    position:absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    top: 50px;
+    left: 650px;
+    width: 30vw;
+    padding-bottom: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name {
+    margin-bottom: 40px;
+}
+.author{
+    color: white;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.albums{
+    position:absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    left: 400px;
+    top: 600px;
+    transform: rotate(-1deg);
+}
+.albumGrid{
+    display: flex;
+}
+.albums img{
+    width: 240px;
+    margin: 10px;
+}
+.albumGrid p{
+    max-width: 160px;
+}
+.albumGrid a:link{
+    text-decoration: underline;
+    color: white;
+}
+.albumGrid a:visited{
+    text-decoration: underline;
+    color: white;
+}
+.albumGrid a:hover{
+    text-decoration-style: wavy;
+    color: white;
+}
+.gif2{
+    position: absolute;
+    top: 800px;
+    left: 10px;
+}
+.gif2 img{
+    width: 300px;
+    transform: rotate(3deg);
+}
+.interview{
+    position: absolute;
+    color: white;
+    top: 1080px;
+    left: 350px;
+    width: 600px;
+    font-family: 'Courier New', Courier, monospace;
+}

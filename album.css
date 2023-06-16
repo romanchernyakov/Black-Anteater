@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+}
+
+@keyframes shovel {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(3deg);}
+}
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+.home {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+}
+.homeHover {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+    opacity: 0;
+}
+    .homeButton:hover .homeHover {
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        width: 300px;
+        opacity: 1;
+    }
+
+.back img{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 200px;
+}
+.backHower img{
+    position: absolute;
+    top: 140px;
+    left: 12px;
+    width: 240px;
+    opacity: 0;
+}
+
+    .backHower img:hover{
+        position: absolute;
+        top: 145px;
+        left: 12px;
+        width: 240px;
+        opacity: 1;
+    }
+
+.anteater{
+    position: absolute;
+    top: 110px;
+    left: 1100px;
+}
+.hand {
+    position: absolute;
+    top: 210px;
+    left: 1020px;
+    animation: shovel 1s infinite alternate-reverse;
+    transform-origin: 100% 10%;
+}
+.photo img{
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    width: 400px;
+    transform: rotate(-7deg);
+}
+.tracks{
+    position:absolute;
+    z-index: 10;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    top: 960px;
+    left: 850px;
+    width: 400px;
+    padding-bottom: 40px;
+}
+.tracks img{
+    width: 180px;
+}
+.tracks audio {
+    height: 20px;
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 10px ;
+    margin-left: 10px;
+}
+.description{
+    position: absolute;
+    top: 80px;
+    left: 550px;
+    width: 35vw;
+    padding-bottom: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.description img{
+    width: 180px;
+}
+.name {
+    margin-bottom: 40px;
+}
+.author a:link{
+    text-decoration: underline;
+    color: white;
+}
+.author a:visited{
+    text-decoration: underline;
+    color: white;
+}
+.author a:hover{
+    text-decoration-style: wavy;
+    color: white;
+}
+.vynil img{
+    position: absolute;
+    top: 700px;
+    left: 150px;
+    width: 300px;
+    animation: rotate 4s infinite;
+}
+.gif {
+    position: absolute;
+    z-index: 0;
+    transform: rotate(-1deg);
+    top: 1000px;
+    left: 500px;
+    width: 500px;
+}
+.gif2{
+    position: absolute;
+    transform: rotate(3deg);
+    top: 1400px;
+    left: 200px;
+    width: 600px;
+}
+.gif3{
+    position: absolute;
+    transform: rotate(3deg);
+    top: 1000px;
+    left: 20px;
+    width: 400px;
+}

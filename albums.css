@@ -1,0 +1,191 @@
+body{
+    background-color: black;
+}
+
+/* header */
+
+.anteater{
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    width: 800px;
+    z-index: 0;
+}
+.albums p{
+    position: absolute;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    top: 70px;
+    left: 541px;
+    width: 270px;
+    z-index: 0;
+}
+.bg img{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    object-fit: none;
+    width: 400px;
+    height:320vh;
+}
+.gifs{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 0px;
+    right: 30px;
+    width: 400px;
+    
+}
+
+.gifs img {
+    padding-top: 40vh;
+}
+@keyframes shake {
+    form {transform: rotate(10deg); }
+    to {transform: rotate(-10deg); }
+}
+
+.hand {
+    position: relative;
+    top: 140px;
+    left: 800px;
+    width: 90px;
+    transform-origin:50% 100%;
+    animation: shake 1s infinite alternate-reverse;
+}
+
+.home {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+}
+.homeHover {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+    opacity: 0;
+}
+    .homeButton:hover .homeHover {
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        width: 300px;
+        opacity: 1;
+    }
+.back img{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 200px;
+}
+.backHower img{
+    position: absolute;
+    top: 113px;
+    left: 12px;
+    width: 240px;
+    opacity: 0;
+}
+
+    .backHower img:hover{
+        position: absolute;
+        top: 113px;
+        left: 12px;
+        width: 240px;
+        opacity: 1;
+    }
+/* body */
+
+    /* plate */
+
+.plate{
+    margin-left: 190px;
+    margin-top: 50px;
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+    width: 50%;
+    height: 510px;
+}
+
+/* plates */
+.plate img{
+    position: absolute;
+    margin-left: 0vw;
+    height: 500px;   
+    transform: rotate(1deg);
+
+}
+
+/* paws */
+
+.paws img {
+    width: 0px;
+    height: 0px;
+    transform: rotate(1deg);
+    opacity: 0;
+}
+.paws {
+    top: 300px;
+    margin-left: -320px;
+    width: 120px;
+    transform: rotate(1deg);
+}
+.plate a{
+    width: 0px;
+}
+.plate:hover .photo img{
+    transform: rotate(2deg);
+    margin-left: 100px;
+}
+
+.plate:hover .paws img{
+    top: 0px;
+    width: 550px;
+    height: auto;
+    opacity: 1;
+}
+.name {
+    font-family: 'Courier', Courier, monospace;
+    line-height: 20pt;
+    color: white;
+
+}
+.rectangle {
+    display: flex;
+    position: relative;
+    width: fit-content;
+    top: 0px;
+    left: 9px;
+    background-color: white;
+    opacity: 0;
+}
+.rectangle p{
+    font-family: 'Courier', Courier, monospace;
+    display: block;
+    margin-top: 0px;
+    line-height: 23pt;
+    padding-left: 145px;
+    color: rgb(0, 0, 0);
+    min-width: 160px;
+}
+.rectangle img {
+    top: 5px;
+    left: 0px;
+    width: 80px;
+    height: auto;
+    padding-left: 60px;
+}
+    .plate:hover .rectangle{
+        display: flex;
+        width: 430px;
+        top: 80px;
+        left: 90px;
+        background-color: white;
+        opacity: 1;
+    }
+
+
