@@ -1,3 +1,72 @@
-.body {
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+body {
     background-color: black;
+}
+.pnf{
+font-family: 'Courier New', Courier, monospace;
+position: absolute;
+bottom: 0px;
+right: 0px;
+}
+
+.pnf img{
+    width: 800px;
+    }
+.pnf p{
+    position: absolute;
+    top: 235px;
+    left: 28px;
+    width: 400px;
+}
+.home {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+}
+.homeHover {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+    opacity: 0;
+}
+    .homeButton:hover .homeHover {
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        width: 300px;
+        opacity: 1;
+    }
+.text {
+    position: absolute;
+    top: 180px;
+    left: 200px;
+}
+.text img {
+    width: 330px;
+}
+.cone1 img{
+    position: absolute;
+    left: 600px;
+    width: 50px;
+    animation: rotate 0.002s infinite linear;
+}
+.cone2 img{
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    width: 120px;
+    animation: rotate 100s infinite linear;
+}
+.cone3 img{
+    position: absolute;
+    top: 300px;
+    left:40px;
+    width: 90px;
+    animation: rotate 2s infinite reverse linear;
 }
