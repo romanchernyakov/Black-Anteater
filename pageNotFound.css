@@ -15,11 +15,11 @@ z-index: 1;
 }
 
 .pnf img{
-    width: 800px;
+    width: 900px;
     }
 .pnf p{
     position: absolute;
-    top: 235px;
+    top: 275px;
     left: 28px;
     width: 400px;
 }

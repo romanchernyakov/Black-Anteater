@@ -65,12 +65,16 @@ body{
     width: 180px;
 }
 .tracks audio {
-    height: 20px;
+    height: 28px;
     width: 500px;
-    margin-top: 5px;
-    margin-bottom: 10px ;
+    margin-top: 3px;
+    margin-bottom: 19px ;
     margin-left: 10px;
+    transform: rotate(-2deg);
 }
+    .tracks audio:hover {
+        transform: rotate(-1.7deg);
+    }
 .description{
     position: absolute;
     top: 80px;
