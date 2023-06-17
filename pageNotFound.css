@@ -11,6 +11,7 @@ font-family: 'Courier New', Courier, monospace;
 position: absolute;
 bottom: 0px;
 right: 0px;
+z-index: 1;
 }
 
 .pnf img{
@@ -46,15 +47,18 @@ right: 0px;
     position: absolute;
     top: 180px;
     left: 200px;
+    z-index: 1;
 }
 .text img {
     width: 330px;
 }
 .cone1 img{
     position: absolute;
-    left: 600px;
-    width: 50px;
-    animation: rotate 0.002s infinite linear;
+    left: 300px;
+    width: 500px;
+    animation: rotate 10s infinite reverse linear;
+    z-index: 0;
+    transform-origin: 15% 0%;
 }
 .cone2 img{
     position: absolute;
