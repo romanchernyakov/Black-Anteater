@@ -74,9 +74,34 @@ body{
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;  
 }
+.smileFace {
+    position: absolute;
+    animation-name: surf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    opacity: 0;
+    z-index: 3;
+}
+
+    .smileFace:hover {
+        position: absolute;
+        animation-name: surf;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        opacity: 1;
+        z-index: 3;
+    }
+
+.smileFace img {
+    width: 30vw;
+}
+
 .surf img {
     width: 30vw;
 }
+
 .speechBubble{
     position: absolute;
     animation-name: surf ;
