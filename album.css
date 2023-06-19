@@ -67,10 +67,11 @@ body{
 .tracks audio {
     height: 28px;
     width: 500px;
-    margin-top: 3px;
+    margin-top: -3px;
     margin-bottom: 19px ;
     margin-left: 10px;
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
+    transform-origin: 100% 100%;
 }
     .tracks audio:hover {
         transform: rotate(-1.7deg);
