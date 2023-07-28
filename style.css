@@ -2,12 +2,14 @@
 
 body{
     background-color: black;
+    min-height: 900px;
 }
 .logo img{
     position: relative;
     top: 6vw;
     left: 0px;
     width: 58vw;
+    z-index: 15;
     }
 .mouth{
     position: absolute;
@@ -51,6 +53,7 @@ body{
     max-width: 26vw;
     font-family: 'Courier', Courier, monospace;
     transform: rotate(-0.6deg);
+    z-index: 15;
 }
 .about img{
     position: absolute;
@@ -60,6 +63,7 @@ body{
     width: 45vw;
     height: 300px;
     font-family: 'Courier', Courier, monospace;
+    z-index: 15;
 }
 menu {
     position: absolute;
@@ -119,9 +123,16 @@ menu {
         opacity: 100%;
         transform: rotate(-7deg);
     }
-.bg img{
+
+.bg {
     position: absolute;
-    transform: rotate(90deg);
-    height: 180vw;
-    margin-top: -1070px;
+    position: absolute;
+    bottom: -250px;
+    width: 100%;
+    z-index: 0;
+}
+
+.bg img{
+    object-fit: cover;
+    height: 20vw;
 }
